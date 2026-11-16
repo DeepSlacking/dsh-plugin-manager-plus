@@ -1,6 +1,6 @@
 {
   "name": "dsh-plugin-manager-plus",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "type": "module",
   "description": "Enhances the official Plugins → Installed page in place: its three groups switch one at a time, and installed plugins show a Chinese name with an original-name pill plus a colored Chinese summary.",
   "license": "MIT",
