@@ -1,0 +1,43 @@
+{
+  "name": "dsh-plugin-manager-plus",
+  "version": "0.2.0",
+  "type": "module",
+  "description": "Enhances the official Plugins → Installed page in place: its three groups switch one at a time, and installed plugins show a Chinese name with an original-name pill plus a colored Chinese summary.",
+  "license": "MIT",
+  "author": "DeepSlacking",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepSlacking/dsh-plugin-manager-plus.git"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/model.test.mjs",
+    "prepack": "node scripts/build.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-plugin-manager"
+      ]
+    }
+  }
+}

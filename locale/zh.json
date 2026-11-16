@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "插件管理增强",
+    "description": "直接改造官方「插件 → 已安装」页面：三个分组改为切换查看，已安装插件显示中文名称、原名称标签与彩色中文用途摘要。"
+  },
+  "groupBuiltin": "内置插件配置",
+  "groupExperimental": "实验性插件",
+  "groupInstalled": "已安装插件",
+  "controlLabel": "插件分类视图",
+  "note": "中文名称与用途摘要由「插件管理增强」提供",
+  "openLabel": "查看 {name}",
+  "originalName": "原始名称",
+  "emptyCategory": "该分类暂无条目",
+  "fallbackTag": "第三方插件",
+  "fallbackSummary": "第三方插件，提供「{name}」相关能力。"
+}

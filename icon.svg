@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Plugin categories">
+  <defs>
+    <linearGradient id="pmp-a" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b8cff"/>
+      <stop offset="1" stop-color="#7d5bff"/>
+    </linearGradient>
+    <linearGradient id="pmp-b" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#33c48d"/>
+      <stop offset="1" stop-color="#28a4c9"/>
+    </linearGradient>
+    <linearGradient id="pmp-c" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffb648"/>
+      <stop offset="1" stop-color="#ff7a7a"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="56" height="52" rx="14" fill="#0f172a" opacity="0.92"/>
+  <rect x="12" y="13" width="28" height="9" rx="4.5" fill="url(#pmp-a)"/>
+  <rect x="12" y="27" width="40" height="9" rx="4.5" fill="url(#pmp-b)"/>
+  <rect x="12" y="41" width="34" height="9" rx="4.5" fill="url(#pmp-c)"/>
+  <circle cx="51" cy="17.5" r="3.2" fill="#ffffff" opacity="0.95"/>
+  <circle cx="47" cy="44.5" r="2.4" fill="#ffffff" opacity="0.8"/>
+</svg>

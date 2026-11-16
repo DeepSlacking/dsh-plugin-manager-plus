@@ -1,0 +1,116 @@
+{
+  "packages": {
+    "dshmarket": {
+      "name": "插件市场",
+      "summary": "在 Harness 内浏览、搜索并一键安装社区插件",
+      "tag": "插件市场",
+      "tagTone": "blue"
+    },
+    "@deepseek-ai/dsh-experimental-session-admin": {
+      "name": "会话清理",
+      "summary": "在会话列表中永久删除会话及其活动记录、缓存、事件日志与关联提醒",
+      "tag": "会话管理",
+      "tagTone": "rose"
+    },
+    "@linxin666/dsh-client-ui-task-board": {
+      "name": "任务看板",
+      "summary": "创建任务卡片并交由真实会话执行，支持子任务、定时调度与自动验收",
+      "tag": "任务看板",
+      "tagTone": "violet"
+    },
+    "@tt-a1i/archify-dsh": {
+      "name": "架构图工坊",
+      "summary": "把代码库或需求描述生成可交互的架构图、流程图与数据流图",
+      "tag": "架构图",
+      "tagTone": "slate"
+    },
+    "@vectorize-io/hindsight-coding-agents": {
+      "name": "项目记忆",
+      "summary": "自动沉淀仓库历史与对话，让每个新会话都带着项目长期记忆",
+      "tag": "知识记忆",
+      "tagTone": "green"
+    },
+    "@wxg-prc-cpg/browser-skill-dsh-plugin": {
+      "name": "浏览器助手",
+      "summary": "让模型用浏览器打开网页、填写表单、点击操作并截图取证",
+      "tag": "浏览器自动化",
+      "tagTone": "blue"
+    },
+    "billion-context": {
+      "name": "十亿上下文",
+      "summary": "把长对话增量压缩成摘要，让单个会话在有限窗口内持续运行数天",
+      "tag": "上下文管理",
+      "tagTone": "cyan"
+    },
+    "dsh-blender": {
+      "name": "Blender 建模套件",
+      "summary": "提供从建模、贴图、动画到渲染导出的 Blender 流水线与验收工具",
+      "tag": "3D 建模",
+      "tagTone": "amber"
+    },
+    "dsh-blender-plugin": {
+      "name": "Blender 直连",
+      "summary": "把 AI 接进运行中的 Blender，实时看视口、执行 Python 并检查导出结果",
+      "tag": "3D 建模",
+      "tagTone": "amber"
+    },
+    "dsh-claude-design": {
+      "name": "Claude 设计工作台",
+      "summary": "用画板式画布生成可编辑设计稿，支持并排预览、改文案与导出 PNG",
+      "tag": "设计生成",
+      "tagTone": "rose"
+    },
+    "dsh-claude-motion": {
+      "name": "Claude 动效工作室",
+      "summary": "把讲解、产品演示与片头写成分镜代码，在本地播放器预览并导出视频",
+      "tag": "动效制作",
+      "tagTone": "amber"
+    },
+    "dsh-context": {
+      "name": "上下文洞察",
+      "summary": "用仪表盘展示上下文组成、Token 消耗与演变趋势，并可跳转到任一会话",
+      "tag": "上下文管理",
+      "tagTone": "cyan"
+    },
+    "dsh-context-manager": {
+      "name": "上下文管理器",
+      "summary": "分级设置上下文容量与压缩策略，查看压缩记录与空间释放统计",
+      "tag": "上下文管理",
+      "tagTone": "cyan"
+    },
+    "dsh-ops": {
+      "name": "Ops 工具集",
+      "summary": "用更省 Token 的 ops 系列工具替代官方文件与命令工具，减少调用轮次",
+      "tag": "效率工具",
+      "tagTone": "slate"
+    },
+    "dsh-sidebar-console": {
+      "name": "侧栏控制台",
+      "summary": "长按拖动调整左侧面板顺序，并可批量隐藏或显示不常用入口",
+      "tag": "侧栏管理",
+      "tagTone": "green"
+    },
+    "dsh-status-rotator": {
+      "name": "状态行轮播",
+      "summary": "把运行状态行换成自定义文案，支持打字机、昼夜渐变、弹幕与梗词库",
+      "tag": "界面美化",
+      "tagTone": "rose"
+    },
+    "dsh-plugin-manager-plus": {
+      "name": "插件管理增强",
+      "summary": "改造官方插件已安装页：分组切换查看，并为每个插件显示中文名称与彩色用途摘要",
+      "tag": "界面增强",
+      "tagTone": "violet"
+    },
+    "@momasiku/dsh-pilot": {
+      "name": "桌面操控",
+      "summary": "让模型看见真实屏幕并直接操作鼠标键盘，可驱动 CAD、WPS、浏览器等桌面软件",
+      "tag": "桌面自动化",
+      "tagTone": "cyan"
+    }
+  },
+  "meta": {
+    "generatedAt": "2026-11-13",
+    "count": 18
+  }
+}

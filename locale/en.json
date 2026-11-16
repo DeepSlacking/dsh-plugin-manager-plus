@@ -1,0 +1,16 @@
+{
+  "meta": {
+    "title": "Plugin manager plus",
+    "description": "Enhances the official Plugins → Installed page in place: its three groups switch one at a time, and installed plugins show a Chinese name, an original-name pill, and a colored Chinese summary."
+  },
+  "groupBuiltin": "Built-in plugin settings",
+  "groupExperimental": "Experimental plugins",
+  "groupInstalled": "Installed plugins",
+  "controlLabel": "Plugin category views",
+  "note": "Chinese names and summaries are provided by Plugin manager plus",
+  "openLabel": "View {name}",
+  "originalName": "Original name",
+  "emptyCategory": "No entry in this category",
+  "fallbackTag": "Third-party",
+  "fallbackSummary": "A third-party plugin for {name}."
+}
