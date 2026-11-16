@@ -1,5 +1,7 @@
 # dsh-plugin-manager-plus · 插件管理增强
 
+中文 · [English](README.en.md)
+
 直接改造 DSH Web 官方「插件」页里 **已安装** 标签页的渲染结果，不新增标签页、不替换官方页面逻辑：
 
 1. **分开查看**：官方页原有的三个分组（内置插件配置 / 实验性插件 / 已安装插件）改为一次只显示一个，
@@ -10,6 +12,8 @@
    整块摘要带同色系浅底与左侧色条。
 3. **名称翻译**：英文名称在卡片标题位置替换为中文名称（不移动官方 DOM 文本节点，只隐藏原文并追加中文 span），
    原来的英文名/包名以椭圆标签显示在名称右侧；点击标题仍然打开官方插件详情页。
+
+![插件页效果：分组切换、中文名称与用途摘要](docs/screenshots/plugins-page.png)
 
 ## 安装
 
@@ -58,3 +62,9 @@ node tests/model.test.mjs  # 离线数据/翻译/摘要/清单检查
 - 不引入 Harness Client 包、不接管官方页的启用/安装/卸载逻辑；样式只用
   `--dsw-alias-*` 主题 token 与少量色相混合，跟随明暗主题。
 - 名称与摘要不写入官方页的 React 状态，官方数据、排序、开关行为保持不变。
+
+## 许可
+
+MIT License，Copyright (c) 2026 dsh-plugin-manager-plus contributors。
+
+本插件在 MIT 许可下自由使用、修改与分发；完整条款见 [LICENSE](LICENSE)。

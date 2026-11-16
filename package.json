@@ -20,7 +20,8 @@
     "client.js",
     "cordis.patch.yml",
     "locale/*.json",
-    "icon.svg"
+    "icon.svg",
+    "README.en.md"
   ],
   "scripts": {
     "build": "node scripts/build.mjs",
